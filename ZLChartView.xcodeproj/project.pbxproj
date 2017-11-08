@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F85961D8FDFE51851271B17 /* Pods_ZLChartView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB8F02C12467258A40CD12C /* Pods_ZLChartView.framework */; };
 		BE9C266E1FB2B4EE0063F334 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9C266D1FB2B4EE0063F334 /* AppDelegate.m */; };
 		BE9C26711FB2B4EE0063F334 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9C26701FB2B4EE0063F334 /* ViewController.m */; };
 		BE9C26741FB2B4EE0063F334 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE9C26721FB2B4EE0063F334 /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 		BE9C267C1FB2B4EE0063F334 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9C267B1FB2B4EE0063F334 /* main.m */; };
 		BE9C26861FB2B4EF0063F334 /* ZLChartViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9C26851FB2B4EF0063F334 /* ZLChartViewTests.m */; };
 		BE9C26911FB2B4EF0063F334 /* ZLChartViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9C26901FB2B4EF0063F334 /* ZLChartViewUITests.m */; };
+		BE9C26A91FB2D2F50063F334 /* ZLChartContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9C26A61FB2D2F50063F334 /* ZLChartContentView.m */; };
+		BE9C26AA1FB2D2F50063F334 /* ZLShapeChart.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9C26A71FB2D2F50063F334 /* ZLShapeChart.m */; };
+		BE9C26AB1FB2D2F50063F334 /* ZLLineContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9C26A81FB2D2F50063F334 /* ZLLineContentView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16A6ACC534904AC0B89A6203 /* Pods-ZLChartView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLChartView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZLChartView/Pods-ZLChartView.release.xcconfig"; sourceTree = "<group>"; };
+		7CB8F02C12467258A40CD12C /* Pods_ZLChartView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZLChartView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE9C26691FB2B4EE0063F334 /* ZLChartView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLChartView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE9C266C1FB2B4EE0063F334 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BE9C266D1FB2B4EE0063F334 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +57,13 @@
 		BE9C268C1FB2B4EF0063F334 /* ZLChartViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLChartViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE9C26901FB2B4EF0063F334 /* ZLChartViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLChartViewUITests.m; sourceTree = "<group>"; };
 		BE9C26921FB2B4EF0063F334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE9C26A31FB2D2F50063F334 /* ZLLineContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLLineContentView.h; sourceTree = "<group>"; };
+		BE9C26A41FB2D2F50063F334 /* ZLShapeChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLShapeChart.h; sourceTree = "<group>"; };
+		BE9C26A51FB2D2F50063F334 /* ZLChartContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLChartContentView.h; sourceTree = "<group>"; };
+		BE9C26A61FB2D2F50063F334 /* ZLChartContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLChartContentView.m; sourceTree = "<group>"; };
+		BE9C26A71FB2D2F50063F334 /* ZLShapeChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLShapeChart.m; sourceTree = "<group>"; };
+		BE9C26A81FB2D2F50063F334 /* ZLLineContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLLineContentView.m; sourceTree = "<group>"; };
+		F3CDE6443D01EDD5002ECD8D /* Pods-ZLChartView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLChartView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZLChartView/Pods-ZLChartView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F85961D8FDFE51851271B17 /* Pods_ZLChartView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +92,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B44555B328B161C97F469075 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CB8F02C12467258A40CD12C /* Pods_ZLChartView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BE9C26601FB2B4EE0063F334 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +107,8 @@
 				BE9C26841FB2B4EF0063F334 /* ZLChartViewTests */,
 				BE9C268F1FB2B4EF0063F334 /* ZLChartViewUITests */,
 				BE9C266A1FB2B4EE0063F334 /* Products */,
+				E8915BCD2B6A660935C8488B /* Pods */,
+				B44555B328B161C97F469075 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +125,7 @@
 		BE9C266B1FB2B4EE0063F334 /* ZLChartView */ = {
 			isa = PBXGroup;
 			children = (
+				BE9C26A21FB2D2F50063F334 /* ZLChartView */,
 				BE9C266C1FB2B4EE0063F334 /* AppDelegate.h */,
 				BE9C266D1FB2B4EE0063F334 /* AppDelegate.m */,
 				BE9C266F1FB2B4EE0063F334 /* ViewController.h */,
@@ -132,6 +157,28 @@
 			path = ZLChartViewUITests;
 			sourceTree = "<group>";
 		};
+		BE9C26A21FB2D2F50063F334 /* ZLChartView */ = {
+			isa = PBXGroup;
+			children = (
+				BE9C26A41FB2D2F50063F334 /* ZLShapeChart.h */,
+				BE9C26A71FB2D2F50063F334 /* ZLShapeChart.m */,
+				BE9C26A51FB2D2F50063F334 /* ZLChartContentView.h */,
+				BE9C26A61FB2D2F50063F334 /* ZLChartContentView.m */,
+				BE9C26A31FB2D2F50063F334 /* ZLLineContentView.h */,
+				BE9C26A81FB2D2F50063F334 /* ZLLineContentView.m */,
+			);
+			path = ZLChartView;
+			sourceTree = "<group>";
+		};
+		E8915BCD2B6A660935C8488B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3CDE6443D01EDD5002ECD8D /* Pods-ZLChartView.debug.xcconfig */,
+				16A6ACC534904AC0B89A6203 /* Pods-ZLChartView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE9C26951FB2B4EF0063F334 /* Build configuration list for PBXNativeTarget "ZLChartView" */;
 			buildPhases = (
+				461FC248342B44408D773488 /* [CP] Check Pods Manifest.lock */,
 				BE9C26651FB2B4EE0063F334 /* Sources */,
 				BE9C26661FB2B4EE0063F334 /* Frameworks */,
 				BE9C26671FB2B4EE0063F334 /* Resources */,
+				9B16D4C70E549EF534B5831F /* [CP] Embed Pods Frameworks */,
+				4B823726266976A12DAC9166 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,13 +310,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		461FC248342B44408D773488 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZLChartView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B823726266976A12DAC9166 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZLChartView/Pods-ZLChartView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B16D4C70E549EF534B5831F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZLChartView/Pods-ZLChartView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZLChartView/Pods-ZLChartView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BE9C26651FB2B4EE0063F334 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BE9C26711FB2B4EE0063F334 /* ViewController.m in Sources */,
+				BE9C26A91FB2D2F50063F334 /* ZLChartContentView.m in Sources */,
+				BE9C26AB1FB2D2F50063F334 /* ZLLineContentView.m in Sources */,
 				BE9C267C1FB2B4EE0063F334 /* main.m in Sources */,
+				BE9C26AA1FB2D2F50063F334 /* ZLShapeChart.m in Sources */,
 				BE9C266E1FB2B4EE0063F334 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +535,7 @@
 		};
 		BE9C26961FB2B4EF0063F334 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3CDE6443D01EDD5002ECD8D /* Pods-ZLChartView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -441,6 +549,7 @@
 		};
 		BE9C26971FB2B4EF0063F334 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16A6ACC534904AC0B89A6203 /* Pods-ZLChartView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
